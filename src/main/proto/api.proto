@@ -1,7 +1,7 @@
 syntax = "proto3";
 option java_multiple_files = true;
-option java_package = "com.yt8492.grpckotlinsample.protobuf";
-option java_outer_classname = "GrpcKotlinSample";
+option java_package = "com.yt8492.grpcsample.protobuf";
+option java_outer_classname = "GrpcSample";
 
 package api;
 

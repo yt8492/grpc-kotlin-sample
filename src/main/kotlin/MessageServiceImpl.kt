@@ -1,6 +1,6 @@
-import com.yt8492.grpckotlinsample.protobuf.MessageRequest
-import com.yt8492.grpckotlinsample.protobuf.MessageResponse
-import com.yt8492.grpckotlinsample.protobuf.MessageServiceImplBase
+import com.yt8492.grpcsample.protobuf.MessageRequest
+import com.yt8492.grpcsample.protobuf.MessageResponse
+import com.yt8492.grpcsample.protobuf.MessageServiceImplBase
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.channels.ReceiveChannel
 import kotlinx.coroutines.channels.consumeEach
