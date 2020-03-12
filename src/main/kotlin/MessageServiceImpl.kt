@@ -7,7 +7,7 @@ import kotlinx.coroutines.channels.consumeEach
 import kotlinx.coroutines.channels.produce
 import kotlinx.coroutines.channels.toList
 
-@ExperimentalCoroutinesApi
+@OptIn(ExperimentalCoroutinesApi::class)
 class MessageServiceImpl : MessageServiceImplBase() {
 
     override suspend fun unary(request: MessageRequest): MessageResponse {
