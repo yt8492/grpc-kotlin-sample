@@ -10,7 +10,9 @@ import kotlinx.coroutines.channels.toList
 @OptIn(ExperimentalCoroutinesApi::class)
 class MessageServiceImpl : MessageServiceImplBase() {
 
-    override suspend fun unary(request: MessageRequest): MessageResponse {
+    override suspend fun unary(
+        request: MessageRequest
+    ): MessageResponse {
         val response = MessageResponse.newBuilder()
             .setMessage(request.message.toUpperCase())
             .build()
